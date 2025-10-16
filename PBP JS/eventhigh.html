@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text">Student Permit Access
+        <button id="Jamie">Jamie</button>
+        <button id="Flower">Flower</button>
+    </p>
+
+    <script>
+        let data = document.
+        getElementById('text');
+        let Jamie = document.
+        getElementById('Jamie');
+        let Flower = document.
+        getElementById('Flower');
+
+        Jamie.addEventListener('click',
+        ()=>{
+            data.textContent = 'Jamie';
+            data.style.color = 'red';
+            data.style.fontsize = '30px';
+        })
+
+        Flower.addEventListener('click',
+        ()=>{
+                data.textContent = 'Flower';
+                data.style.color = 'Black';
+                data.style.fontsize = '30px';
+            })
+
+    </script>
+
+</body>
+</html>

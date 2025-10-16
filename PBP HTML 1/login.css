@@ -1,0 +1,27 @@
+body {
+    margin: 1;
+    padding: 0,75rem;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    background: #b4b7b4;
+    color:blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background : #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 1opx rgba (0,0,0,0,1);
+    width: 300px;
+    text-align: center;
+    animation: slideIn 0.5s ease-out;
+}

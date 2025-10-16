@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="angka">80</p>
+    <button id="tambah5">tambah 5</button>
+    <button id="kurang5">kurang 5</button>
+
+    <script>
+        let data = document.
+        getElementById('angka');
+        let tambah5 = document.
+        getElementById('tambah5');
+        let kurang5 = document.
+        getElementById('kurang5');
+
+        var angka = Number(data.textContent);
+        console.log(angka+10);
+
+        tambah5.addEventListener('click',
+        ()=>{
+            angka = angka+5;
+            data.textContent = angka;
+        })
+
+        kurang5.addEventListener('click',
+        ()=>{
+            angka = angka-5;
+            data.textContent = angka;
+            })
+
+    </script>
+
+</body>
+</html>

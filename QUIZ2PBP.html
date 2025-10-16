@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRASI EXPLORER GUILD (ETHERIA: RESTART DIVISION ASIA 1-5)</title>
+</head>
+<body>
+    <form action="">
+        <h1 align="center">Welcome to Explorer Guild!</h1>
+        <h2 align="center">Please fill this submission field to register.</h2>
+
+        <table>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" required></td>
+            </tr>
+            <tr>
+                <td><label for="uid">Hyperlink UID:</label></td>
+                <td><input type="text" id="uid" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="discord">Discord Username:</label></td>
+                <td><input type="text" id="discord"></td>
+            </tr>
+            <tr>
+                <td><label for="Division">Asia Server Division:</label></td>
+                <td>
+                    <select name="Division" id="Division" required>
+                        <option value="Asia-S1">Asia-S1</option>
+                        <option value="Asia-S2">Asia-S2</option>
+                        <option value="Asia-S3">Asia-S3</option>
+                        <option value="Asia-S4">Asia-S4</option>
+                        <option value="Asia-S5">Asia-S5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="jk" value="lk" required> Laki-Laki
+                    <input type="radio" name="jk" value="pr" required> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hyperlink Level:</td>
+                <td>
+                    <input type="checkbox" name="level" value="85-89"> 85-89
+                    <input type="checkbox" name="level" value="90-94"> 90-94
+                    <input type="checkbox" name="level" value="95-100"> 95-100
+                </td>
+            </tr>
+        </table>
+
+        <fieldset>
+            <legend>Pencapaian Akun</legend>
+            <table>
+                <tr>
+                    <td><label for="grim">Grim Pursuit level Inferno yang diselesaikan:</label></td>
+                    <td><input type="number" id="grim" min="2" max="4"></td>
+                </tr>
+                <tr>
+                    <td><label for="terro">Treshold level tertinggi yang dicapai (Terromarton Hell III, IV, Inferno):</label></td>
+                    <td><input type="text" id="terro" placeholder="Kesulitan tertinggi"></td>
+                </tr>
+                <tr>
+                    <td><label for="doki">Treshold level tertinggi yang dicapai (Doki-Doki Hell IV, Inferno):</label></td>
+                    <td><input type="text" id="doki" placeholder="Kesulitan tertinggi"></td>
+                </tr>
+                <tr>
+                    <td><label for="aurora">Treshold level tertinggi yang dicapai (Aurora Hell II, IV, Inferno):</label></td>
+                    <td><input type="text" id="aurora" placeholder="Kesulitan tertinggi"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Kemajuan Akun di Sektor PVP</legend>
+            <table>
+                <tr>
+                    <td><label for="etherena">Rank Tertinggi di Etherena (Diamond-Mythic):</label></td>
+                    <td><input type="text" id="etherena" required placeholder="Diamond, Master, Mythic"></td>
+                </tr>
+                <tr>
+                    <td><label for="summit">Rank Tertinggi di Summit Arena (Platinum-Mythic):</label></td>
+                    <td><input type="text" id="summit" required placeholder="Platinum, Diamond, Master, Mythic"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <p>Upload Screenshot Akun
+            <input type="file" accept="image/*" required>
+        </p>
+
+        <p>
+            <label for="motivasi">Pesan:</label><br>
+            <textarea id="motivasi" name="Motivasi Bergabung" rows="5" cols="50" placeholder="Tulis pesan"></textarea>
+        </p>
+
+        <div align="center">
+            <input type="submit" value="JOIN US!">
+        </div>
+    </form>
+</body>
+</html>
